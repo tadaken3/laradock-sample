@@ -22,5 +22,5 @@ php artisan migrate
 php artisan key:generate
 ```
 
-ブラウザでlocalhostにアクセスして、laravelのサイトが表示されたら成功です。
+ブラウザでlocalhostにアクセスして、laravelのサイトが表示されたら成功です。  
 http://127.0.0.1/

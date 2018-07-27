@@ -24,3 +24,5 @@ php artisan key:generate
 
 ブラウザでlocalhostにアクセスして、laravelのサイトが表示されたら成功です。  
 http://127.0.0.1/
+
+きちんと開発環境が作れたスターを押してもらえると喜びます！

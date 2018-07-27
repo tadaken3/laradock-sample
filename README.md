@@ -9,8 +9,8 @@ docker-compose up -d nginx mysql phpmyadmin
 docker-compose exec --user=laradock workspace bash
 
 #ここからworkspaceコンテナでの作業になります
-compose install
 cp .env.example .env
+composer install
 php artisan migrate
 php artisan key:generate
 ```

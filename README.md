@@ -4,7 +4,7 @@
 LaradockはDockerを使って、Laravelの環境を構築します。
 公式サイトからDockerをダウンロードしてインストールします。
 
-https://docs.docker.com/docker-for-mac/install/
+https://docs.docker.com/
 
 ## 環境構築の仕方
 

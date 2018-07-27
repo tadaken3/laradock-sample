@@ -6,9 +6,11 @@ LaradockはDockerを使って、Laravelの環境を構築します。
 
 https://docs.docker.com/docker-for-mac/install/
 
-## 使い方
+## 環境構築の仕方
 
-コマンドラインで以下のコマンドを順番に実行します。
+ターミナルで以下のコマンドを順番に実行します。
+初回はいろいろとDLしたりするので、時間がかかりますが、二回目以降は早いです。
+
 ```
 git clone https://github.com/tadaken3/laradock-sample
 cd laradock-sample/laradock
@@ -25,4 +27,15 @@ php artisan key:generate
 ブラウザでlocalhostにアクセスして、laravelのサイトが表示されたら成功です。  
 http://127.0.0.1/
 
-きちんと開発環境が作れたスターを押してもらえると喜びます！
+きちんと開発環境が作れたら、スターを押してもらえると喜びます！
+
+
+## ワークスペースに入る方法
+
+```
+cd laradock-sample/laradock
+docker-compose exec --user=laradock workspace bash
+```
+
+ここでコマンド実行したりします。
+

@@ -4,7 +4,7 @@
 
 ```
 git clone https://github.com/tadaken3/laradock-sample
-cd laradock
+cd laradock-sample/laradock
 docker-compose up -d nginx mysql phpmyadmin
 docker-compose exec --user=laradock workspace bash
 

@@ -16,7 +16,7 @@ Macユーザーの方は、セットアップ用のスクリプトを用意し�
 
 ```
 git clone https://github.com/tadaken3/laradock-sample
-sh laradock-sample/laradock/setup.sh
+sh laradock-sample/setup.sh
 ```
 
 ### Mac以外の方は、お使いの環境に合わせて、以下のコマンドを順に実行してください。

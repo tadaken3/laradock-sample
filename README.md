@@ -11,6 +11,15 @@ https://docs.docker.com/
 ターミナルで以下のコマンドを順番に実行します。
 初回はいろいろとDLしたりするので、時間がかかりますが、二回目以降は早いです。
 
+Macユーザーの方は、セットアップ用のスクリプトを用意しています。
+以下を実行してもらうと、Laravelの環境が作成されます。
+
+```
+git clone https://github.com/tadaken3/laradock-sample
+sh laradock-sample/laradock/setup.sh
+```
+
+### Mac以外の方は、お使いの環境に合わせて、以下のコマンドを順に実行してください。
 ```
 git clone https://github.com/tadaken3/laradock-sample
 cd laradock-sample/laradock

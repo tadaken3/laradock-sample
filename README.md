@@ -19,6 +19,16 @@ git clone https://github.com/tadaken3/laradock-sample
 sh laradock-sample/setup.sh
 ```
 
+実行するとこのように、必要なファイルなどがダウンロードされ、セットアップされます。
+
+![demo](https://raw.github.com/wiki/tadaken3/laradock-sample/media/sample.gif)
+
+ブラウザでlocalhostにアクセスして、laravelのサイトが表示されたら成功です。
+
+http://127.0.0.1/
+
+きちんと開発環境が作れたら、スターを押してもらえると喜びます！
+
 ### Mac以外の方は、お使いの環境に合わせて、以下のコマンドを順に実行してください。
 ```
 git clone https://github.com/tadaken3/laradock-sample
@@ -32,12 +42,6 @@ composer install
 php artisan migrate
 php artisan key:generate
 ```
-
-ブラウザでlocalhostにアクセスして、laravelのサイトが表示されたら成功です。  
-http://127.0.0.1/
-
-きちんと開発環境が作れたら、スターを押してもらえると喜びます！
-
 
 ## ワークスペースに入る方法
 

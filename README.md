@@ -21,7 +21,7 @@ sh laradock-sample/setup.sh
 
 実行するとこのように、必要なファイルなどがダウンロードされ、セットアップされます。
 
-![demo](https://raw.github.com/wiki/tadaken3/laradock-sample/media/sample.gif)
+![demo](https://github.com/tadaken3/laradock-sample/blob/master/media/sample.gif)
 
 ブラウザでlocalhostにアクセスして、laravelのサイトが表示されたら成功です。
 

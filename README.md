@@ -43,12 +43,21 @@ php artisan migrate
 php artisan key:generate
 ```
 
-## ワークスペースに入る方法
+## 開発の進め方
+
+projectディレクトリ配下にLaravelで使用するファイルが入っています。  
+こちらを使って、開発をすすめていきます。githubなどで管理されるのは、このporjectディレクトリになります。  
+
+名前がややこしいのですが、laradockディレクトリ配下が開発環境についてのファイルが保存されており、porjectディレクトリの配下が開発するWEBサービスのファイルになります。
+
+ここややこしいのですが、混同しないようにお気をつけください。
+
+### ワークスペースに入る方法
+
+laravelで、開発を進めるにあたって、必要なコマンドはworkspaceコンテナに入っています。  
+以下のコマンドを実行し、workspaceコンテナに接続すると、```php artisan migrate```などのコマンドが実行できます。
 
 ```
 cd laradock-sample/laradock
 docker-compose exec --user=laradock workspace bash
 ```
-
-ここでコマンド実行したりします。
-

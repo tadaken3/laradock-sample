@@ -1,5 +1,7 @@
 # laradock-sample
 
+[![GitHub stars](https://img.shields.io/github/stars/tadaken3/laradock-sample.svg)](https://github.com/tadaken3/laradock-sample/stargazers)
+
 ## Dockerのインストール
 LaradockはDockerを使って、Laravelの環境を構築します。
 公式サイトからDockerをダウンロードしてインストールします。

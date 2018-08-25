@@ -10,11 +10,9 @@ https://docs.docker.com/
 
 ## 環境構築の仕方
 
-ターミナルで以下のコマンドを順番に実行します。
-初回はいろいろとDLしたりするので、時間がかかりますが、二回目以降は早いです。
-
 Macユーザーの方は、セットアップ用のスクリプトを用意しています。
 以下を実行してもらうと、Laravelの環境が作成されます。
+初回はいろいろとDLしたりするので、時間がかかりますが、二回目以降は早いです。
 
 ```
 git clone https://github.com/tadaken3/laradock-sample
@@ -32,6 +30,7 @@ http://127.0.0.1/
 きちんと開発環境が作れたら、スターを押してもらえると喜びます！
 
 ### Mac以外の方は、お使いの環境に合わせて、以下のコマンドを順に実行してください。
+
 ```
 git clone https://github.com/tadaken3/laradock-sample
 cd laradock-sample/laradock
@@ -44,6 +43,10 @@ composer install
 php artisan migrate
 php artisan key:generate
 ```
+
+自分でlaradockを使って環境を作ってみたいという方は以下の記事を参考にしてみてください。
+
+[Laravelの開発環境をLaradockを使って構築する方法](https://tadaken3.hatenablog.jp/entry/laradock-laravel)
 
 ## 開発の進め方
 
